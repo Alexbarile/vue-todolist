@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.todolist-container{
+    border: 1px solid rgb(172, 171, 171);
+    border-radius: 20px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.list-item{
+    padding: 20px;
+}
+
+.stroked{
+    text-decoration: line-through;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.button-succes{
+    color: white;
+    background-color: rgb(2, 17, 150);
+}
+
+.button-succes:hover{
+    color: white;
+    background-color: rgb(1, 2, 99);
+}
+
+.button-succes:active{
+    color: white;
+    background-color: rgb(8, 0, 46);
+}
+
+.button-delete{
+    background-color: red;
+}
+
+.button-delete:hover{
+    background-color: rgb(133, 0, 0);
+}
+
+.button-delete:active{
+    background-color: rgb(87, 0, 0);
+}
