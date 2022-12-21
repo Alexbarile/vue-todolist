@@ -45,8 +45,10 @@ createApp({
             let object = {
                 text: this.newTask,
                 done: false,
+                edit: false,
             }
             this.todolist.push(object);
+            // per non lasciare la voce nella barra
             this.newTask = '';
         },
         // Rimuovo elementi dalla lista
